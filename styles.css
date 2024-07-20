@@ -129,3 +129,27 @@ button {
     font-weight: 900;
     color: #1F2937;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    height: 225px;
+    padding: 100px 200px 50px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote div h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote div h3 {
+    font-size: 20px;
+    text-align: right;
+    color: #1F2937;
+    margin-top: 0;
+}
