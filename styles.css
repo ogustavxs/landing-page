@@ -9,6 +9,10 @@ html, body {
     width: 100vw;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     overflow-x: hidden;
 }
@@ -18,14 +22,14 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 25px;
+    gap: 35px;
 }
 
 a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 header {
@@ -33,7 +37,8 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: #1F2937;
+    gap: 115px;
+    background-color: #523906;
 }
 
 .logo {
@@ -44,7 +49,7 @@ header {
 
 .main {
     padding: 120px 255px;
-    background-color: #1F2937;
+    background-color: #523906;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -56,6 +61,8 @@ header {
 
 .right-side img {
     width: 550px;
+    border: 5px double #0e8a01;
+    border-radius: 5px;
 }
 
 h1 {
@@ -78,7 +85,7 @@ button {
     cursor: pointer;
     border: 0;
     color: white;
-    background-color: #3882F6;
+    background-color: #0e8a01;
     font-weight: 500;
     border-radius: 8px;
     font-size: 18px;
@@ -111,7 +118,7 @@ button {
 .image img {
     width: 160px;
     height: 160px;
-    border: 4px solid #3882F6;
+    border: 4px solid #0e8a01;
     border-radius: 10px;
     padding: 5px;
 }
@@ -127,7 +134,7 @@ button {
 .info-header h1 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    color: #523906;
 }
 
 .quote {
@@ -142,7 +149,7 @@ button {
 
 .quote div h1 {
     font-size: 36px;
-    color: #1F2937;
+    color: #523906;
     font-style: italic;
     font-weight: 300;
 }
@@ -150,7 +157,7 @@ button {
 .quote div h3 {
     font-size: 30px;
     text-align: right;
-    color: #1F2937;
+    color: #523906;
     margin-top: 0;
 }
 
@@ -162,7 +169,7 @@ button {
 }
 
 .cta .box {
-    background-color: #3882F6;
+    background-color: #0e8a01;
     padding: 15px 60px;
     display: flex;
     border-radius: 10px;
@@ -189,7 +196,7 @@ button {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #523906;
     height: 90px;
     display: flex;
     justify-content: center;
