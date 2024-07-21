@@ -13,4 +13,4 @@ Esse projeto envolveu a criação de um site a partir de uma referência usando 
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" height="50" alt="CSS logo" />
 </div>
 
-## <div align="center"><a href="https://ogustavxs.github.io/landing-page/">Acesse a página online</a></div>
+## <div align="center"><a href="https://ogustavxs.github.io/landing-page/" target="_blank">Acesse a página online</a></div>
